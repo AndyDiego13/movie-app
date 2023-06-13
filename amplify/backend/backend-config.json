@@ -1,0 +1,43 @@
+{
+  "api": {
+    "api375b2f21": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "movieapp56fba7f8"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "movieapp56fba7f8": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_movieapp56fba7f8_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "movieapp56fba7f8"
+        }
+      ]
+    },
+    "AMPLIFY_function_movieapp56fba7f8_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "movieapp56fba7f8"
+        }
+      ]
+    }
+  }
+}
