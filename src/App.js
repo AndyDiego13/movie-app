@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import SearchIcon from "./search.svg";
 import MovieCard from "./MovieCard";
+import Amplify, { API } from "amplify";
+import handler from 'index.js'
+
+const my_API = 'api375b2f21'
 
 const API_URL = "http://www.omdbapi.com/?i=tt3896198&apikey=988986d7";
 const App = () => {
@@ -47,7 +51,11 @@ const App = () => {
             <h2>No movies found</h2>
           </div>
         )}
+        <div>
+          <button onClick={() => handler()}>Reciba su orden de peliculas</button>
+        </div>
       </div>
+
     );
   };
   

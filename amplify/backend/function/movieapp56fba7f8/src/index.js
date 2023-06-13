@@ -3,6 +3,10 @@
 /**
  * @type {import('@types/aws-lambda').APIGatewayProxyHandler}
  */
+import amplify from 'amplify';
+import awsExports from './aws-exports'
+import { Amplify } from 'aws-amplify';
+Amplify.configure(awsExports)
 const accountSid = 'ACd0cd5cf0c35391b4f2c68358145b01cf';
 const authToken = '[AuthToken]';
 const client = require('twilio')(accountSid, authToken);
