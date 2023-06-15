@@ -1,25 +1,25 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-movieapp-dev-205510-authRole",
-      "UnauthRoleArn": "arn:aws:iam::176065288798:role/amplify-movieapp-dev-205510-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::176065288798:role/amplify-movieapp-dev-205510-authRole",
+      "AuthRoleName": "amplify-movieparadise-dev-230805-authRole",
+      "UnauthRoleArn": "arn:aws:iam::176065288798:role/amplify-movieparadise-dev-230805-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::176065288798:role/amplify-movieparadise-dev-230805-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-movieapp-dev-205510-deployment",
-      "UnauthRoleName": "amplify-movieapp-dev-205510-unauthRole",
-      "StackName": "amplify-movieapp-dev-205510",
-      "StackId": "arn:aws:cloudformation:us-east-1:176065288798:stack/amplify-movieapp-dev-205510/b70131f0-0995-11ee-b406-12cd0b1ab877",
-      "AmplifyAppId": "dwo0oa6vm415p"
+      "DeploymentBucketName": "amplify-movieparadise-dev-230805-deployment",
+      "UnauthRoleName": "amplify-movieparadise-dev-230805-unauthRole",
+      "StackName": "amplify-movieparadise-dev-230805",
+      "StackId": "arn:aws:cloudformation:us-east-1:176065288798:stack/amplify-movieparadise-dev-230805/9f0b2320-0b3a-11ee-840d-1207b13faa19",
+      "AmplifyAppId": "d2ub605l6ftyox"
     },
     "categories": {
       "function": {
-        "movieapp56fba7f8": {
-          "deploymentBucketName": "amplify-movieapp-dev-205510-deployment",
-          "s3Key": "amplify-builds/movieapp56fba7f8-377a3069716b6963694e-build.zip"
+        "movieparadiseee05af5f": {
+          "deploymentBucketName": "amplify-movieparadise-dev-230805-deployment",
+          "s3Key": "amplify-builds/movieparadiseee05af5f-6b657278357a63376f48-build.zip"
         }
       },
       "api": {
-        "api375b2f21": {}
+        "api1a4af3e7": {}
       }
     }
   }

@@ -3,7 +3,7 @@
   "paths": {
     "/items": {
       "name": "/items",
-      "lambdaFunction": "movieapp56fba7f8",
+      "lambdaFunction": "movieparadiseee05af5f",
       "permissions": {
         "setting": "open"
       }

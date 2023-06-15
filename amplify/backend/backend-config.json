@@ -1,6 +1,6 @@
 {
   "api": {
-    "api375b2f21": {
+    "api1a4af3e7": {
       "dependsOn": [
         {
           "attributes": [
@@ -8,7 +8,7 @@
             "Arn"
           ],
           "category": "function",
-          "resourceName": "movieapp56fba7f8"
+          "resourceName": "movieparadiseee05af5f"
         }
       ],
       "providerPlugin": "awscloudformation",
@@ -16,26 +16,26 @@
     }
   },
   "function": {
-    "movieapp56fba7f8": {
+    "movieparadiseee05af5f": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
   },
   "parameters": {
-    "AMPLIFY_function_movieapp56fba7f8_deploymentBucketName": {
+    "AMPLIFY_function_movieparadiseee05af5f_deploymentBucketName": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "movieapp56fba7f8"
+          "resourceName": "movieparadiseee05af5f"
         }
       ]
     },
-    "AMPLIFY_function_movieapp56fba7f8_s3Key": {
+    "AMPLIFY_function_movieparadiseee05af5f_s3Key": {
       "usedBy": [
         {
           "category": "function",
-          "resourceName": "movieapp56fba7f8"
+          "resourceName": "movieparadiseee05af5f"
         }
       ]
     }

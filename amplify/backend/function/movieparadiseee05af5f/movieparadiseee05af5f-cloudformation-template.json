@@ -47,12 +47,12 @@
         "FunctionName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "movieapp56fba7f8",
+            "movieparadiseee05af5f",
             {
               "Fn::Join": [
                 "",
                 [
-                  "movieapp56fba7f8",
+                  "movieparadiseee05af5f",
                   "-",
                   {
                     "Ref": "env"
@@ -89,12 +89,12 @@
         "RoleName": {
           "Fn::If": [
             "ShouldNotCreateEnvResources",
-            "movieappLambdaRolecfeca442",
+            "movieparadiseLambdaRoleab5680eb",
             {
               "Fn::Join": [
                 "",
                 [
-                  "movieappLambdaRolecfeca442",
+                  "movieparadiseLambdaRoleab5680eb",
                   "-",
                   {
                     "Ref": "env"
