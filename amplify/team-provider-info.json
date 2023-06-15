@@ -15,7 +15,7 @@
       "function": {
         "movieapp56fba7f8": {
           "deploymentBucketName": "amplify-movieapp-dev-205510-deployment",
-          "s3Key": "amplify-builds/movieapp56fba7f8-7431556b714876646777-build.zip"
+          "s3Key": "amplify-builds/movieapp56fba7f8-377a3069716b6963694e-build.zip"
         }
       },
       "api": {
