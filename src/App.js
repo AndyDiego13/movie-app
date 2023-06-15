@@ -51,7 +51,7 @@ const App = () => {
             <h2>No movies found</h2>
           </div>
         )}
-        <div>
+        <div className="empty">
           <button onClick={() => handler()}>Reciba su orden de peliculas</button>
         </div>
       </div>
